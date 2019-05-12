@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgvMoviePoster"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="10dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
+            fresco:actualImageScaleType="centerInside"
+            fresco:placeholderImage="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgvMoviePoster" />
+
+
+        <!-- Running time   -->
+
+        <TextView
+            android:id="@+id/tvRunningTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Running Time: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+
+        <TextView
+            android:id="@+id/tvRunningTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toRightOf="@id/tvRunningTime"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+
+        <!-- Release date   -->
+
+        <TextView
+            android:id="@+id/tvReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Release Date: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvRunningTime" />
+
+
+        <TextView
+            android:id="@+id/tvReleaseDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toRightOf="@id/tvReleaseDate"
+            app:layout_constraintTop_toBottomOf="@id/tvRunningTime" />
+
+
+        <!-- Genres   -->
+
+        <TextView
+            android:id="@+id/tvGenres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Genres: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvReleaseDate" />
+
+
+        <TextView
+            android:id="@+id/tvGenresText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginRight="4dp"
+            app:layout_constraintLeft_toRightOf="@id/tvGenres"
+            app:layout_constraintTop_toBottomOf="@id/tvReleaseDate" />
+
+
+        <!-- Rating   -->
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Rating: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvGenresText" />
+
+
+        <TextView
+            android:id="@+id/tvRatingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toRightOf="@id/tvRating"
+            app:layout_constraintTop_toBottomOf="@id/tvGenresText" />
+
+
+
+        <!-- votes   -->
+
+        <TextView
+            android:id="@+id/tvVotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Votes: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvRating" />
+
+
+        <TextView
+            android:id="@+id/tvVotesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toRightOf="@id/tvVotes"
+            app:layout_constraintTop_toBottomOf="@id/tvRating" />
+
+        <!-- Actors   -->
+
+        <TextView
+            android:id="@+id/tvActors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Actors: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvVotes" />
+
+
+        <TextView
+            android:id="@+id/tvActorsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toRightOf="@id/tvActors"
+            app:layout_constraintTop_toBottomOf="@id/tvVotes" />
+
+
+        <!-- Synopsis   -->
+
+        <TextView
+            android:id="@+id/tvSynopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Synopsis: "
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvActors" />
+
+
+        <TextView
+            android:id="@+id/tvSynopsisText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginLeft = "10dp"
+            android:layout_marginRight = "4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSynopsis" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

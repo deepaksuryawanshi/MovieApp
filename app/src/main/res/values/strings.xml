@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="internet_not_available">Internet not available</string>
+    <string name="textDigits">0123456789_-,.qwertzuiopasdfghjklyxcvbnm ABCDEFGHIJKLMNOPQRSTUVWXYZ\n
+    </string>
+
+
+
+</resources>

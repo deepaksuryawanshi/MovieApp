@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="navyBlue">#2D3E50</color>
+    <color name="read">#efefef</color>
+
+    <color name="colorPrimary2">#FF7F15</color>
+    <color name="colorPrimaryDark2">#E65100</color>
+    <color name="colorAccent2">#FF6D00</color>
+
+    <!--Theme Pink-->
+    <color name="colorPrimary1">#EC407A</color>
+    <color name="colorPrimaryDark1">#E91E63</color>
+    <color name="dark_blue">#3F51B5</color>
+
+    <color name="medium_red">#ea3337</color>
+
+    <color name="off_white">#FAFAFA</color>
+
+    <color name="textColorPrimary">#000000</color>
+    <color name="textColorPrimary2">#FFFFFF</color>
+
+    <color name="lightest_grey">#F5F5F5</color>
+    <color name="grey_shade">#ECECEC</color>
+    <color name="light_grey1">#E7E7E7</color>
+    <color name="light_grey">#C2C2C2</color>
+    <color name="medium_grey">#727373</color>
+    <color name="dark_grey">#606060</color>
+    <color name="darker_grey">#3B3B3B</color>
+    <color name="grey_blue">#858585</color>
+    <color name="grey_dark">#727373</color>
+
+    <color name="navy_blue">#2D3E50</color>
+
+    <color name="lemon_green">#88B92A</color>
+    <color name="subscription_color">#deecc8</color>
+    <color name="address_color">#59bf98</color>
+    <color name="address_color1">#efefef</color>
+
+    <color name="sky_blue_dark">#00A1E1</color>
+    <color name="blue">#448AFF</color>
+    <color name="button_background_blue">#4797D4</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="trans_black">#77000000</color>
+
+    <color name="light_green">#E2FFC7</color>
+
+    <color name="light_yellow">#EEECA8</color>
+    <color name="light_orange">#FFF3E0</color>
+
+    <color name="green">#48AD8A</color>
+    <color name="dark_green">#75A675</color>
+    <color name="medium_green">#11ad4b</color>
+    <color name="red">#F15758</color>
+    <color name="pink">#FF6868</color>
+    <color name="light_pink">#FCE4EC</color>
+
+    <color name="silver">#F5F5F5</color>
+    <color name="grey_light">#F4F3F2</color>
+    <color name="grey_light_bg">#F2F3F3</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="list_item_title_color">#2D3E50</color>
+    <color name="color_orange">#FE6601</color>
+    <color name="app_background">#D7D7D7</color>
+    <color name="sub_text_color">#8D8D8D</color>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="yellow">#FEDC56</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#93c6fd</color>
+    <color name="dot_dark_screen2">#f98da5</color>
+    <color name="dot_dark_screen3">#8cf9eb</color>
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#2278d4</color>
+    <color name="dot_light_screen2">#d1395c</color>
+    <color name="dot_light_screen3">#14a895</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+</resources>
